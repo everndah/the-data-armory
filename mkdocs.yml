@@ -1,0 +1,81 @@
+site_name: The Data Armory
+site_description: Python | Data Analysis | Machine Learning.
+
+repo_url: https://github.com/everndah/the-data-armory
+repo_name: everndah/the-data-armory
+
+theme:
+  name: material
+
+  # Pallet Color
+  palette:
+    primary: black
+
+  # Site Font
+  font:
+    text: Roboto
+
+  features:
+    - navigation.footer
+    - content.code.copy
+    - content.code.py.annotate
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+
+extra:
+  # Social Links
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@thedataarmory
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TheDataArmory
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/ydC74P5saW
+
+  markdown_extensions:
+    - pymdownx.highlight:
+      anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.arithmatex:
+      generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.mark
+    - attr_list
+    - tables
+    - pymdownx.emoji:
+      #emoji_index: !!python/name:materialx.emoji.twemoji
+      #emoji_generator: !!python/name:materialx.emoji.to_svg
+      
+plugins:
+ - mkdocs-jupyter:
+    include_source: True
+    ignore_h1_titles: True
+ - search
+
+# Page tree
+nav:
+  - Home: "index.md"
+
+  - Python Course:
+    - Home: "python_index.md"
+    - 00. What is Python: 00_what_is_python.ipynb
+    - 01. Python Variables: 01_variables_in_python.ipynb
+    - 02. Data Types: 02_python_data_types.ipynb
+    - 03. Python Comments: 03_python_comments.ipynb
+    - 04. Python Strings: 04_python_strings.ipynb
+
+  - Statistics Course:
+    - Home: "statistics_index.md"
+    - 01. Structured and Unstructured Data: 01_Structured_and_Unstructured_Data.ipynb
+  
+
+#Footer Copyright Info
+copyright: Copyright © 2023 The Data Armory.

@@ -53,29 +53,31 @@ extra:
     - pymdownx.emoji:
       #emoji_index: !!python/name:materialx.emoji.twemoji
       #emoji_generator: !!python/name:materialx.emoji.to_svg
-      
+
 plugins:
- - mkdocs-jupyter:
-    include_source: True
-    ignore_h1_titles: True
- - search
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+  - search
 
 # Page tree
 nav:
   - Home: "index.md"
 
   - Python Course:
-    - Home: "python_index.md"
-    - 00. What is Python: 00_what_is_python.ipynb
-    - 01. Python Variables: 01_variables_in_python.ipynb
-    - 02. Data Types: 02_python_data_types.ipynb
-    - 03. Python Comments: 03_python_comments.ipynb
-    - 04. Python Strings: 04_python_strings.ipynb
+      - Home: "python_index.md"
+      - 00. What is Python: 00_what_is_python.ipynb
+      - 01. Python Variables: 01_variables_in_python.ipynb
+      - 02. Data Types: 02_python_data_types.ipynb
+      - 03. Python Comments: 03_python_comments.ipynb
+      - 04. Python Strings: 04_python_strings.ipynb
 
   - Statistics Course:
-    - Home: "statistics_index.md"
-    - 01. Structured and Unstructured Data: 01_Structured_and_Unstructured_Data.ipynb
-  
+      - Home: "statistics_index.md"
+      - 01. Structured and Unstructured Data: 01_Structured_and_Unstructured_Data.ipynb
+
+  - Projects:
+      - EDA/ML Projects: projects.md
 
 #Footer Copyright Info
 copyright: Copyright © 2023 The Data Armory.

@@ -6,6 +6,7 @@ repo_name: everndah/the-data-armory
 
 theme:
   name: material
+ 
 
   # Pallet Color
   palette:

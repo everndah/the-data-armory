@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Welcome to The Data Armory course notes </h1> 
+<h1 style="text-align: center;">Welcome to The Data Armory Course Materials </h1> 
 
 ---
 

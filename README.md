@@ -1,11 +1,12 @@
 <h1 style="text-align: center;">Welcome to The Data Armory course notes </h1> 
+
 ---
 
 **Python Course Notes**
 
 | **Number** | **Notebook** | **Video Tutorial** | 
 |----- | -----| ----- |
-| 00 | [What is Python](https://everndah.github.io/python_tutorials/00_what_is_python/) | [00:Video](https://www.youtube.com/watch?v=HZ-LVnvOJhU&t=98s) |
+| 00 | [What is Python](https://everndah.github.io/python_tutorials/00_what_is_python/) | [00-Video](https://www.youtube.com/watch?v=HZ-LVnvOJhU&t=98s) |
 | 01 | [Python Variables](https://everndah.github.io/python_tutorials/01_variables_in_python/) | [01-Video](https://www.youtube.com/watch?v=ti9iuPKRbSk&t=76s) |
 | 02 | [Data Types](https://everndah.github.io/python_tutorials/02_python_data_types/) | [02-Video](https://www.youtube.com/watch?v=CYasopvG4os&t=7s) |
 | 03 | [Python Comments](https://everndah.github.io/python_tutorials/03_python_comments/) | [03-Video](https://www.youtube.com/watch?v=iqWqg5szAOI) |

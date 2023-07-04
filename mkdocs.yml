@@ -6,6 +6,10 @@ repo_name: everndah/the-data-armory
 
 theme:
   name: material
+  icon:
+    admonition:
+      note: octicons/tag-16
+      
  
 
   # Pallet Color
@@ -37,7 +41,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/ydC74P5saW
 
-  markdown_extensions:
+  markdown_extensions:  
     - pymdownx.highlight:
       anchor_linenums: true
     - pymdownx.inlinehilite
@@ -45,15 +49,17 @@ extra:
     - admonition
     - pymdownx.arithmatex:
       generic: true
-    - footnotes
+    - footnotes 
+    - admonition
     - pymdownx.details
     - pymdownx.superfences
     - pymdownx.mark
-    - attr_list
     - tables
+    - attr_list
     - pymdownx.emoji:
-      #emoji_index: !!python/name:materialx.emoji.twemoji
-      #emoji_generator: !!python/name:materialx.emoji.to_svg
+        emoji_index: !!python/name:materialx.emoji.twemoji 
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - md_in_html
 
 plugins:
   - mkdocs-jupyter:
@@ -63,7 +69,7 @@ plugins:
 
 # Page tree
 nav:
-  - Home: "index.md"
+  - Home: index.md
 
   - Python Course:
       - Home: "python_index.md"

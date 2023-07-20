@@ -82,6 +82,7 @@ nav:
   - Statistics Course:
       - Home: "statistics_index.md"
       - 01. Structured and Unstructured Data: 01_Structured_and_Unstructured_Data.ipynb
+      - 02. Data Frames : 02_data_frames.ipynb
 
   - Projects:
       - EDA/ML Projects: projects.md
